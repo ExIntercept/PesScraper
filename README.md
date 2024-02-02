@@ -13,7 +13,7 @@ PesScraper is a Python script designed to scrape data of PES University students
 
 2. **Install Dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install selenium
     ```
 
 3. **Run the Script:**
@@ -45,7 +45,7 @@ PesScraper is a Python script designed to scrape data of PES University students
 - **Range of Student SRNs:**
   - Define the range of SRNs to scrape (.e.g., 1 to 112)
 -**Example**
-  -Run the python script. If the input for campus is RR, Date is 23, Branch is CS, Start is 1 and Stop is 112, it will scrape IDs from PES1UG23CS001 to PES1UG23CS112
+  -Run the Python script. If the input for the campus is RR, Date is 23, Branch is CS, Start is 1 and Stop is 112, it will scrape IDs from PES1UG23CS001 to PES1UG23CS112
 
 ## Output
 The scraped data will be saved in a CSV file named `output_data.csv` in the same directory as the script.
