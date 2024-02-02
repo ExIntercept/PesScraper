@@ -1,7 +1,7 @@
 # PesScraper
 
 ## Overview
-PesScraper is a Python script designed to scrape data of PES University students based on specified parameters such as campus, branch, join date, and a range of student SRNs. The scraped data includes student names, PRNs, sections, and semesters. The information is then saved in a CSV file for easy analysis and reference. It uses the PESU "Know your class and Section to do so."
+PesScraper is a Python script designed to scrape data of PES University students based on specified parameters such as campus, branch, join date, and a range of student SRNs. The scraped data includes student names, PRNs, sections, and semesters. The information is then saved in a CSV file for easy analysis and reference. It uses the PESU "Know your class and Section" portal to do so.
 
 ## How to Use
 
