@@ -17,7 +17,7 @@ import os
 def initialize_browser():
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')  # Enable headless mode
-    options.binary_location = r"chrome.exe"
+    options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
     browser = webdriver.Chrome(options=options)
     return browser
 
